@@ -2,9 +2,9 @@
 
 > Becuase all we don't have enough tools for devops.
 
-**0xCI** aim to provide a simple and easy to use CI/CD solution, that stays together with the unix philosophy, it is supposed to _Do One Thing and Do It Well_.
+**0xC1** aim to provide a simple and easy to use CI/CD solution, that stays together with the unix philosophy, it is supposed to _Do One Thing and Do It Well_.
 
-That being said, let's figure out if 0xCI is something for you. Here are some things worth mentioning.
+That being said, let's figure out if 0xC1 is something for you. Here are some things worth mentioning.
 
  - One central configuration for all projects.
  - Everything is being built in docker containers.

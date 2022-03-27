@@ -22,7 +22,7 @@ type Config struct {
 	JobPlatform string
 }
 
-var homepath = "/opt/0xCI"
+var homepath = "/opt/0xC1"
 var outpath = path.Join(homepath, "out")
 var workpath = path.Join(homepath, "work")
 var configpath = path.Join(homepath, "config")
