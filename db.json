@@ -1,0 +1,65 @@
+{
+  "Runners": {
+    "cpp": {
+      "Name": "cpp",
+      "Dockerfile": "FROM debian:stable\n\nRUN apt update && apt install g++ -y && rm -rf /var/lib/apt/lists/*"
+    }
+  },
+  "Jobs": {
+    "helloworld___linux/amd64": {
+      "branches": [
+        "master"
+      ],
+      "description": "This is a simple hello world program written in C++, that is being compiled for each architecture natively using qemu docker emulation.",
+      "name": "Hello World C++",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64",
+        "linux/arm/v6"
+      ],
+      "repository": "https://github.com/cisc220/hello-world/",
+      "runner": "cpp",
+      "steps": [
+        "g++ -o /opt/out/hello hello.cpp"
+      ],
+      "ok": true
+    },
+    "helloworld___linux/arm/v6": {
+      "branches": [
+        "master"
+      ],
+      "description": "This is a simple hello world program written in C++, that is being compiled for each architecture natively using qemu docker emulation.",
+      "name": "Hello World C++",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64",
+        "linux/arm/v6"
+      ],
+      "repository": "https://github.com/cisc220/hello-world/",
+      "runner": "cpp",
+      "steps": [
+        "g++ -o /opt/out/hello hello.cpp"
+      ],
+      "ok": true
+    },
+    "helloworld___linux/arm64": {
+      "branches": [
+        "master"
+      ],
+      "description": "This is a simple hello world program written in C++, that is being compiled for each architecture natively using qemu docker emulation.",
+      "name": "Hello World C++",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64",
+        "linux/arm/v6"
+      ],
+      "repository": "https://github.com/cisc220/hello-world/",
+      "runner": "cpp",
+      "steps": [
+        "g++ -o /opt/out/hello hello.cpp"
+      ],
+      "ok": true
+    }
+  },
+  "Archs": null
+}
