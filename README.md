@@ -1,6 +1,6 @@
 # 0xC1
 
-> Becuase all we don't have enough tools for devops.
+> Becuase we all know that we don't have enough tools for devops.
 
 **0xC1** aim to provide a simple and easy to use CI/CD solution, that stays together with the unix philosophy, it is supposed to _Do One Thing and Do It Well_.
 

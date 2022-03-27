@@ -209,7 +209,7 @@ func refreshJobs() {
 
 func refreshConfig() {
 	cmd := exec.Command("git", "pull")
-	cmd.Dir = workpath
+	cmd.Dir = configpath
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	cmd.Run()
